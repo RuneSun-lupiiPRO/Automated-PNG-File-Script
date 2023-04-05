@@ -1,0 +1,17 @@
+It's important to note that creating an NFT can be a complex process
+> 
+> import os
+> import shutil
+> 
+> # Set the directory path for the PNG files
+> directory = "/path/to/png/files"
+> 
+> # Loop through each PNG file in the directory
+> for filename in os.listdir(directory):
+>     if filename.endswith(".png"):
+>         # Perform the specific action on the PNG file
+>         # For example, copy the file to a new directory
+>         shutil.copy(os.path.join(directory, filename), "/path/to/new/directory")
+> 
+> 
+
